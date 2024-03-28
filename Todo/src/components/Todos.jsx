@@ -1,4 +1,3 @@
-// This components renders all the todos.
 import '../App.css'
 import PropTypes from 'prop-types';
 import TaskList from './TaskList';
@@ -14,7 +13,6 @@ const Todos = ({ todos }) => {
   );
 };
 
-// Prop types validation
 Todos.propTypes = {
     todos: PropTypes.arrayOf(
       PropTypes.shape({

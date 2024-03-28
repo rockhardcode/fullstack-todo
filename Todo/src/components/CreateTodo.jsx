@@ -1,4 +1,3 @@
-// This component creates todos
 import { useState } from "react";
 import '../App.css'
 

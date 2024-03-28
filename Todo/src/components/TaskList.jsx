@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faCheck, faXmark } from "@fortawesome/free-solid-svg-icons";
-// eslint-disable-next-line react/prop-types
 const TaskList = ({ title, desc, completed, id }) => {
     const handleComplete = () => {
         if(!completed){
